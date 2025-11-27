@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food - SDG 12</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header (Same as index.html) -->
+    <header class="bg-light py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="image/Logo.png" alt="Logo" width="40" height="40">
+                <h1 class="h4 mb-0">SDG 12: Responsible Consumption and Production</h1>
+            </div>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link" id="home-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="target-dropdown" role="button" data-bs-toggle="dropdown">Targets</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="food.html">Food</a></li>
+                            <li><a class="dropdown-item" href="energy.html">Energy</a></li>
+                            <li><a class="dropdown-item" href="water.html">Water</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link" id="contact-link">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main class="container my-5">
+    <h2 class="text-center mb-4">Food Conservation</h2>
+
+    <div id="food-carousel" class="carousel slide mb-5" 
+         data-bs-ride="carousel" 
+         data-bs-interval="3000">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/food-preservation-1.avif" 
+                     class="d-block mx-auto" 
+                     width="1000" 
+                     height="400" 
+                     alt="Food Conservation Image 1">
+            </div>
+
+            <div class="carousel-item">
+                <img src="image/food-preservation-2.jpg" 
+                     class="d-block mx-auto" 
+                     width="1000" 
+                     height="400" 
+                     alt="Food Conservation Image 2">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" 
+                data-bs-target="#food-carousel" 
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" 
+                data-bs-target="#food-carousel" 
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <label>  </label>
+        <p class="mb-4">Preserving and consuming food sustainably is crucial to reduce waste and ensure global food security. Food and Agriculture Organizations reports that 1.3 billion tons of food are wasted annually, contributing to 8% of global greenhouse gases.</p>
+         <label>  </label>
+        <h3>Actions to Preserve and Consume Food</h3>
+        <ul>
+            <li>Plan meals to avoid overbuying and reduce waste by 20-30%.</li>
+            <li>Store food properly (e.g., refrigeration) to extend shelf life.</li>
+            <li>Compost leftovers and donate excess to food banks.</li>
+            <li>Choose local, seasonal produce to lower transport emissions.</li>
+            <label>  </label>
+        </ul>
+        <h3>Food Waste Statistics Table</h3>
+        <table class="table table-striped mb-4">
+            <thead>
+                <tr>
+                    <th>Region</th>
+                    <th>Annual Waste (Million Tons)</th>
+                    <th>Impact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Europe</td>
+                    <td>88</td>
+                    <td>High-income waste</td>
+                </tr>
+                <tr>
+                    <td>Asia</td>
+                    <td>278</td>
+                    <td>Post-harvest losses</td>
+                </tr>
+                <tr>
+                    <td>Africa</td>
+                    <td>130</td>
+                    <td>Supply chain issues</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="video-frame mt-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/placeholder" frameborder="0" allowfullscreen></iframe>
+            <p>Source: FAO Educational Video</p>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

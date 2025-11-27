@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #FAF5E6;
+    background-color: #4281b8;
+}
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4CAF50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 9999;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.carousel-item {
+    background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%); /* SDG 12 green gradient background for slides */
+    position: relative;
+}
+
+.carousel-item img {
+    position: relative;
+    z-index: 1;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+    text-decoration-color: #4CAF50;
+    text-decoration-thickness: 2px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-frame {
+    text-align: center;
+}
+
+.table {
+    margin-bottom: 20px;
+}
